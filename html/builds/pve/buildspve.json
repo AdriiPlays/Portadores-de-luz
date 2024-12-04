@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Prueba",
+        "iframeURL": "https://nwchamp.com/life-rapier",
+        "role": "healer"
+    },
+    {
+        "name": "SrAnto",
+        "iframeURL": "https://www.nw-buddy.de/es-es/gearsets/share/ipns/k51qzi5uqu5dgsq742rrc6pmr44qx91xiao79rr3ejraav9ibu1c1g9lqrlzuz",
+        "role": "tank"
+    },
+    {
+        "name": "Jugador 3",
+        "iframeURL": "https://example.com",
+        "role": "dps"
+    },
+    {
+        "name": "GuerreroLoco",
+        "iframeURL": "https://nwchamp.com/life-sword",
+        "role": "tank"
+    },
+    {
+        "name": "SanadorPro",
+        "iframeURL": "https://nwchamp.com/life-life-staff",
+        "role": "healer"
+    },
+    {
+        "name": "DPSMaster",
+        "iframeURL": "https://www.nw-buddy.de/es-es/gearsets/share/ipns/k51qzi5uqu5dgsq742rrc6pmr44qx91xiao79rr3ejraav9ibu1c1g9lqrlzuz",
+        "role": "dps"
+    },
+    {
+        "name": "Tankito",
+        "iframeURL": "https://nwchamp.com/life-rapier",
+        "role": "tank"
+    },
+    {
+        "name": "HealerMVP",
+        "iframeURL": "https://example.com",
+        "role": "healer"
+    },
+    {
+        "name": "DPSBeast",
+        "iframeURL": "https://www.nw-buddy.de/es-es/gearsets/share/ipns/k51qzi5uqu5dgsq742rrc6pmr44qx91xiao79rr3ejraav9ibu1c1g9lqrlzuz",
+        "role": "dps"
+    },
+    {
+        "name": "DefensorMax",
+        "iframeURL": "https://nwchamp.com/life-sword",
+        "role": "tank"
+    },
+    {
+        "name": "Vidente",
+        "iframeURL": "https://nwchamp.com/life-life-staff",
+        "role": "healer"
+    },
+    {
+        "name": "AsesinoX",
+        "iframeURL": "https://example.com",
+        "role": "dps"
+    },
+    {
+        "name": "TanqueExterminador",
+        "iframeURL": "https://nwchamp.com/life-rapier",
+        "role": "tank"
+    },
+    {
+        "name": "Curandero",
+        "iframeURL": "https://nwchamp.com/life-life-staff",
+        "role": "healer"
+    }
+]

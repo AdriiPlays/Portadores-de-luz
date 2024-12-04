@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builds PvE</title>
+    <link rel="stylesheet" href="../../../css/buildspvp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="../../../img/logo.png" alt="Logo del Clan" class="menu-logo">
+            <span class="menu-title">Portadores de Luz</span>
+        </div>
+        <ul>
+            <li><a href="../../../index.html">Inicio</a></li>
+            <li><a href="../../../html/builds/builds.html">Builds</a></li>
+        </ul>
+    </nav>
+    
+    <div class="submenu">
+        <div class="submenu-filters">
+            <button class="filter-button" onclick="filterByRole('healer')">Healer</button>
+            <button class="filter-button" onclick="filterByRole('tank')">Tank</button>
+            <button class="filter-button" onclick="filterByRole('dps')">DPS</button>
+        </div>
+        
+        <div class="submenu-search">
+            <input type="text" placeholder="Buscar por nombre..." id="search-input">
+            <button onclick="searchByName()">Buscar</button>
+        </div>
+    </div>
+
+    <main class="builds-container">
+        <div class="builds-grid" id="builds-grid">
+            <!-- Las builds se generarán dinámicamente aquí -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://discord.gg/tuservidordediscord"><i class="fab fa-discord"></i></a>
+            <a href="https://twitter.com/tuclan"><i class="fab fa-twitter"></i></a>
+            <a href="https://youtube.com/tuclan"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>© 2024 Portadores de Luz - New World</p>
+    </footer>
+
+    <script src="../../../js/buildspve.js"></script>
+</body>
+</html>

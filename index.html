@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <base href="." />
+    <title>Portadores de la luz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Logo del Clan" class="menu-logo">
+            <span class="menu-title">Portadores de Luz</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#Nosotros">Sobre Nosotros</a></li>
+            <li><a href="html/builds/builds.html">Builds</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <h1 class="logo animated">Portadores De Luz</h1>
+        <p class="animated">Unidos en la batalla, invencibles en la victoria</p>
+        <div class="video-container animated">
+
+        </div>
+    </header>
+
+    <section id="Nosotros" class="section">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <div class="about-us">
+                <p>
+                    Somos *Portadores de Luz*, un clan español de <strong>New World</strong> con más de <strong>100
+                        miembros activos</strong>. Nuestra base de operaciones se encuentra en el servidor
+                    <strong>Draco</strong>, y orgullosamente representamos al <strong>Sindicato</strong>.
+                </p>
+                <p>
+                    La idea de fundar este clan nació de nuestro líder, <strong>Dacrees</strong>, el <strong>25 de julio
+                        de 2024</strong>. Desde entonces, hemos crecido hasta convertirnos en una comunidad sólida,
+                    llena de jugadores apasionados que buscan diversión, camaradería y la gloria en el campo de batalla.
+                </p>
+                <p>
+                    Creemos en la unión y la fuerza de nuestra comunidad. Organizamos eventos semanales, expediciones,
+                    guerras y actividades sociales que fomentan el trabajo en equipo y la mejora constante de cada
+                    miembro. Nuestro objetivo no es solo dominar el mundo de *Aeternum*, sino también crear lazos que
+                    trasciendan el juego.
+                </p>
+                <p style="text-align: center; font-style: italic; margin-top: 20px;">
+                    “Unidos en la batalla, invencibles en la victoria.”
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reclutamiento" class="section">
+        <div class="container">
+            <div class="recruitment-section">
+                <h2 style="text-align: center; margin-bottom: 30px;">¿Quieres unirte a nuestra familia?</h2>
+                <div class="recruitment-grid">
+                    <div class="recruitment-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Comunidad Activa</h3>
+                        <p>+100 miembros activos diariamente</p>
+                    </div>
+                    <div class="recruitment-card">
+                        <i class="fas fa-headset"></i>
+                        <h3>Soporte 24/7</h3>
+                        <p>Oficiales siempre disponibles</p>
+                    </div>
+                    <div class="recruitment-card">
+                        <i class="fas fa-gem"></i>
+                        <h3>Eventos Semanales</h3>
+                        <p>Premios y recompensas únicas</p>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <a href="https://discord.gg/JpBG6VCTG9" class="join-button">
+                        <i class="fab fa-discord"></i> Únete a nuestro Discord
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://discord.gg/JpBG6VCTG9"><i class="fab fa-discord"></i></a>
+            <a href="https://twitter.com/tuclan"><i class="fab fa-twitter"></i></a>
+            <a href="https://youtube.com/tuclan"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p style="margin-top: 20px;">© 2024 Portadores de Luz - New World</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Animación suave para el scroll
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Animación de elementos al hacer scroll
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.member-card, .achievement-card, .recruitment-card').forEach((el) => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "AdriiPlays",
+        "iframeURL": "https://www.nw-buddy.de/es-es/gearsets/share/ipns/k51qzi5uqu5dku557kqjnwzcjqq8zt7ilvba1c6grnkvrcktrhaqxwp58puk1j",
+        "role": "healer"
+    },
+    {
+        "name": "SrAnto",
+        "iframeURL": "https://www.nw-buddy.de/es-es/gearsets/share/ipns/k51qzi5uqu5dgsq742rrc6pmr44qx91xiao79rr3ejraav9ibu1c1g9lqrlzuz",
+        "role": "tank"
+    },
+    {
+        "name": "Jugador 3",
+        "iframeURL": "https://example.com",
+        "role": "dps"
+    }
+]
